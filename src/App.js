@@ -144,7 +144,7 @@ function App() {
             containerRef.current.getBoundingClientRect();
           setDimensions({ width, height });
         }
-      })(), // Usecallback expects inline function, so wrapping and calling debounce ourselves.
+      })(), // Use callback expects inline function, so wrapping and calling debounce ourselves.
     [containerRef]
   );
 
