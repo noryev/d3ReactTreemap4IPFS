@@ -111,6 +111,8 @@ function TreeMapGroup({
 }) {
   const tree = useTreeNode(data, height, width, transform);
 
+  // I totally forgot how I did all this..
+  
   return (
     tree.data.children.length !== 0 && (
       <svg
